@@ -1,0 +1,40 @@
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  scroll-behavior: smooth;
+  
+  background-color: $gray;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main {
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 0 15px 100px 15px;
+
+  @include onTablet {
+    padding: 0 32px 100px 32px;
+
+  }
+
+  @include onDesktop {
+    padding: 0 60px 100px 60px;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+}

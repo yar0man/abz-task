@@ -1,0 +1,23 @@
+@import "../../utils/variables.scss";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 34px;
+  background-color: $yellow;
+  border-radius: 80px;
+  color: rgba(0, 0, 0, 0.87);
+
+  &:hover {
+    background-color: $yellow-hover;
+  }
+
+  &:disabled {
+    background-color: $disabled;
+    color: rgba(255, 255, 255, 0.87);
+
+    cursor: default;
+  }
+}
