@@ -1,6 +1,6 @@
 ## Test task for abz.agency
 
-[DEMO](https://yar0man.github.io/abz-test_task/)
+[DEMO](https://yar0man.github.io/abz-task/)
 
 <h2 align="center">🧙‍♂Technologies used🧙‍♂</h2>
 <li>
